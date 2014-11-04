@@ -19,15 +19,4 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         StatusBar.styleDefault();
       }
     });
-  })
-
-  .config(function($stateProvider, $urlRouterProvider) {
-    $stateProvider
-      .state('home', {
-        url: "/",
-        templateUrl: "templates/slide-box.html"
-      });
-
-    $urlRouterProvider.otherwise('/');
   });
-
